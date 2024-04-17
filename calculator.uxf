@@ -1,0 +1,96 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>570</x><y>126</y><w>210</w><h>80</h></coordinates><panel_attributes>_object: Input_
+--
+rounded
+readonly
+value =  aktuelle Rechnung
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>126</y><w>210</w><h>80</h></coordinates><panel_attributes>_object: Button_
+--
+
+onClick-Event
+String: value</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>336</y><w>210</w><h>90</h></coordinates><panel_attributes>_subobject: Zeichen_
+--
+backgroundColor: black
+color: white
+--
+addOperandToDisplay()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>596</y><w>210</w><h>80</h></coordinates><panel_attributes>_subobject: Operatoren_
+--
+value: ""
+--
+addOperator()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>336</y><w>210</w><h>90</h></coordinates><panel_attributes>_subobject: Delete_
+--
+value: "C"
+backgroundColor: blue
+color: white
+--
+deleteLatestInput()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1210</x><y>336</y><w>210</w><h>90</h></coordinates><panel_attributes>_subobject: Reset_
+--
+value: "AC"
+backgroundColor: blue
+color: white
+--
+resetAll()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>486</y><w>210</w><h>80</h></coordinates><panel_attributes>_subobject: Result_
+--
+value: "="
+--
+calculate()
+addResultToDisplay()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>416</y><w>30</w><h>240</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>196</y><w>500</w><h>160</h></coordinates><panel_attributes></panel_attributes><additional_attributes>480;10;480;90;10;90;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>196</y><w>220</w><h>160</h></coordinates><panel_attributes></panel_attributes><additional_attributes>200;10;200;90;10;90;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>890</x><y>196</y><w>150</w><h>160</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;90;130;90;130;140</additional_attributes></element><element><id>Relation</id><coordinates><x>890</x><y>196</y><w>440</w><h>160</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;90;420;90;420;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>336</y><w>210</w><h>90</h></coordinates><panel_attributes>_subobject: Operatoren_
+--
+backgroundColor: orange
+color: black
+--
+addOperatorToDisplay()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>736</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "4"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>556</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "1"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>616</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "2"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>676</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "3"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>496</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "0"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>796</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "5"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>1096</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "."
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>1036</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "9"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>976</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "8"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>916</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "7"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>856</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "6"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>1156</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: "("
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>1216</y><w>210</w><h>50</h></coordinates><panel_attributes>_subobject: 1_
+--
+value: ")"
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>416</y><w>90</w><h>840</h></coordinates><panel_attributes></panel_attributes><additional_attributes>70;10;70;820;10;820</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>496</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>556</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>616</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>676</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>736</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>916</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>616</y><w>80</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;60;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>506</y><w>80</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;60;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>856</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>796</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>976</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>1036</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>1096</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>1156</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element></diagram>
